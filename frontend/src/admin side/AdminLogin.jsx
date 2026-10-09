@@ -34,7 +34,7 @@ function AdminLogin() {
             setLoading(true);
 
             const response = await fetch(
-                "https://dandiya-backend.onrender.com/api/admin/login",
+                "https://dandiya-client-project.onrender.com/api/admin/login",
                 {
                     method: "POST",
                     headers: {

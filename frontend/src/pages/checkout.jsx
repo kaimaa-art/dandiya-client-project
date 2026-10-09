@@ -164,7 +164,7 @@ function Checkout() {
             // ================= CREATE RAZORPAY ORDER =================
 
             const response = await fetch(
-                "https://dandiya-backend.onrender.com/api/payment/create-order",
+                "https://dandiya-client-project.onrender.com/api/payment/create-order",
                 {
                     method: "POST",
 
@@ -235,7 +235,7 @@ function Checkout() {
                         // ================= VERIFY PAYMENT =================
 
                         const verifyResponse = await fetch(
-                            "https://dandiya-backend.onrender.com/api/payment/verify-payment",
+                            "https://dandiya-client-project.onrender.com/api/payment/verify-payment",
                             {
                                 method: "POST",
 

@@ -55,7 +55,7 @@ function Contact() {
 
     try {
       const response = await fetch(
-        "https://dandiya-backend.onrender.com/api/contact",
+        "https://dandiya-client-project.onrender.com/api/contact",
         {
           method: "POST",
           headers: {
