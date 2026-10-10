@@ -17,6 +17,7 @@ import Contact from "./pages/contact";
 import Checkout from "./pages/checkout";
 import Success from "./pages/success";
 import Terms from "./pages/terms";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 import AdminLogin from "./admin side/AdminLogin";
 import AdminDashboard from "./admin side/AdminDashboard";
@@ -96,6 +97,11 @@ function App() {
         <Route
           path="/terms-and-conditions"
           element={<Terms />}
+        />
+
+        <Route
+          path="/privacy-policy"
+          element={<PrivacyPolicy />}
         />
 
         <Route

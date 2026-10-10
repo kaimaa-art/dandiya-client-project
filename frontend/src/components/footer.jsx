@@ -326,7 +326,8 @@ function Footer() {
         { name: "Passes", path: "/passes" },
         { name: "Dandiya Shop", path: "/shop" },
         { name: "Contact", path: "/contact" },
-        { name: "Terms & Conditions", path: "/terms-and-conditions" }
+        { name: "Terms & Conditions", path: "/terms-and-conditions" },
+        { name: "Privacy Policy", path: "/privacy-policy" },
     ];
 
     // Scroll page to top whenever a footer link is clicked
