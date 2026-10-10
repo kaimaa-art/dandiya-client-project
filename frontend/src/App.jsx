@@ -16,6 +16,7 @@ import Cart from "./pages/cart";
 import Contact from "./pages/contact";
 import Checkout from "./pages/checkout";
 import Success from "./pages/success";
+import Terms from "./pages/terms";
 
 import AdminLogin from "./admin side/AdminLogin";
 import AdminDashboard from "./admin side/AdminDashboard";
@@ -90,6 +91,11 @@ function App() {
         <Route
           path="/contact"
           element={<Contact />}
+        />
+
+        <Route
+          path="/terms-and-conditions"
+          element={<Terms />}
         />
 
         <Route
